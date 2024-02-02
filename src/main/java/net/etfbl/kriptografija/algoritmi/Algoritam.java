@@ -110,9 +110,7 @@ public class Algoritam {
 
         String keyWithoutDuplicates=removeDuplicates(key);
         String textWithPadding=addPadding(text, 'X');
-        System.out.println(text);
-        System.out.println(textWithPadding);
-        System.out.println(keyWithoutDuplicates);
+
         char[][] encipherMatrix = new char[5][5];
 
         int row = 0, column = 0;
